@@ -31,8 +31,8 @@
             Console.WriteLine("--------  Vinii Is FIRED Now  :(  --------");
             // UnSubscribtion
             ball01.LocationChanged -= P12.Run;
-            //ball01.Location = new Location() { X = 90, Y = 20, Z = 30 };
-            ball02.Location = new Location() { X = 90, Y = 20, Z = 30 };
+            ball01.Location = new Location() { X = 90, Y = 20, Z = 30 };
+            //ball02.Location = new Location() { X = 90, Y = 20, Z = 30 };
 
             //ball.LocationChanged.invok(new Location());  // Invalid 
         }
